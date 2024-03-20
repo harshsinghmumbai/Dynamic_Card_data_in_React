@@ -1,7 +1,9 @@
+import Filter_Crad_items from "./Components/Filter_Crad_items";
+
 const App = () => {
   return (
     <>
-      <div className="text-red-500">Hello</div>
+      <Filter_Crad_items />
     </>
   );
 };

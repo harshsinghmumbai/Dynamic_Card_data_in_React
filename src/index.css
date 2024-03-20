@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
+.btn {
+  @apply text-base sm:text-lg lg:text-2xl font-serif focus:bg-yellow-400 focus:text-white focus:rounded-xl focus:px-2;
+}
 @tailwind utilities;
+
+body {
+  background-color: antiquewhite;
+}
