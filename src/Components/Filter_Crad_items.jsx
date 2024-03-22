@@ -1,6 +1,9 @@
 import Card_data from "./Card_data";
+import Card_items_data from "../API/Card_items_data";
+import { useState } from "react";
 
 const Filter_Crad_items = () => {
+  const [data, setdata] = useState(Card_items_data);
   return (
     <>
       <div id="filter_btn" className="w-full h-16">
@@ -13,7 +16,7 @@ const Filter_Crad_items = () => {
         </div>
       </div>
       <div id="Card_items" className="">
-        <Card_data />
+        <Card_data data={data} />
       </div>
     </>
   );
