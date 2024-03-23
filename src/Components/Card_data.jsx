@@ -18,7 +18,7 @@ const Card_data = ({ data }) => {
                 </h1>
                 <p className="mt-1 text-sm text-gray-600">{description}</p>
                 <div className="mt-2">
-                  <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[13px] font-semibold text-gray-900">
+                  <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[13px] font-semibold text-gray-900 hover:bg-red-500 hover:text-white">
                     {category}
                   </span>
                   <span className="mb-2 mr-2 inline-block rounded-full bg-gray-100 px-3 py-1 text-[13px] font-semibold text-gray-900">

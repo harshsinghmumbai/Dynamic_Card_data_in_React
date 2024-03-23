@@ -72,7 +72,7 @@ const Card_items_data = [
   {
     image: "Images/sweets.jpg",
     name: "Sweets",
-    category: "Dinner",
+    category: "dinner",
     prices: 20,
     description: "Lorem ipsum dolor sit amet consectetur",
   },
@@ -93,7 +93,7 @@ const Card_items_data = [
   {
     image: "Images/Indian_food.jpg",
     name: "Indian Food",
-    category: "Dinner",
+    category: "dinner",
     prices: 99,
     description: "Lorem ipsum dolor sit amet consectetur",
   },
